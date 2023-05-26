@@ -17,6 +17,14 @@
         
         //Apóstrofo
         echo '<p>$nome "Binho" $sobrenome</p>';
+
+        echo "Escape Sequences: \"<b>\\n</b>\" Nova linha </br>
+        \"<b>\\t</b>\" Tabulação Horizontal </br>
+        \"<b>\\</b>\" Barra Invertida </br>
+        \"<b>\\$</b>\" Sinal de Cifrão </br>
+        \"<b>\\u{<código>}</b>\" Codepoint Unecode </br>
+        \" <b>\\\" \\\"</b> \" Aspas </br>
+        \" <b>\\' \\'</b> \" Apóstrofos";
     ?>
 </body>
 </html>
